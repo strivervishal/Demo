@@ -1,0 +1,64 @@
+div{
+    width:100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+     animation-name:colorchange ;
+     animation-duration: 10s;
+     animation-delay:2s ;
+     animation-timing-function: ease-out;
+}
+#ease{
+    animation-timing-function: ease;
+}
+#linear{
+    animation-timing-function: linear;
+}
+#ease-in{
+    animation-timing-function: ease-in;
+}
+#ease-out{
+    animation-timing-function: ease-out;
+}
+#ease-in-out{
+    animation-timing-function: ease-in-out;
+}
+/* use animation  */
+@keyframes colorchange {
+    /* from{
+        background-color: yellow;
+        top: 0px; 
+        left: 0px;
+    }
+    to{
+        background-color: green;
+        top: 0px; 
+        left: 200px; */
+   
+    0%{
+        /* move animation left right and top  */
+        background-color: green;
+        top:0px;
+        left:0px;
+    }
+    25%{
+        background-color: green;
+        top:0px;
+        left:200px;
+    }
+    50%{
+        background-color: green;
+        top:200px;
+        left:200px;
+    }
+    75%{
+        background-color: green;
+        top:200px;
+        right:0px;
+    }
+    100%{
+        background-color: green;
+        top:0px;
+        left:0px;
+    }
+}

@@ -1,0 +1,29 @@
+/*  descedent selector*/
+main p{
+    color: aquamarine;
+    text-shadow: 0ch;
+    text-decoration:dotted;
+}
+
+/* child selector*/
+section>h2{
+    color: #00f;
+    text-align: center;
+}
+/*adjacent sibling selector */
+section+p{
+    color: gold;
+}
+/*general sibling selector */
+main~p{
+    text-decoration: line-through;
+    font-size:30px ;
+}
+/* attribute selector*/
+[target="_blank"]{
+    color: pink;
+}
+/* attribute value selector*/
+[alt~="abc"]{
+    color: #00f;
+}

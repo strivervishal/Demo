@@ -1,0 +1,64 @@
+body{
+    background-color: blue;
+}
+div{
+    /* width: 100px;
+    height:100px; */
+    color: black ;
+    text-align: center;
+    /* animation-name: colorchange;
+    position: relative; */
+    /* animation-duration: 7s;
+    animation-delay: 3s; */
+}
+/* animation  */
+/* @keyframes colorchange {
+    0%{
+        background-color: blueviolet;
+        top:0px;
+        left:0px;
+    }
+    25%{
+        background-color: blueviolet;
+        top:0px;
+        left:200px;
+    }@media (max-width:400px) {
+    body{
+        background-color: yellow;
+    }
+    div::after{
+        content: "Jai Shree Ram";
+    }
+}
+} */
+@media (max-width:400px) {
+    body{
+        background-color: yellow;
+    }
+    div::before{
+        content: "Jai Shree Ram"
+    }
+}
+
+div::after{
+    content: "vishal pandey";
+}
+
+
+/* ager oulta likho doge tho over write hojaye ga  */
+@media (min-width:600px) {
+    body{
+        background-color: red;
+    }
+    div::after{
+        content: "vivek pandey";
+    }
+}
+@media (min-width:800px) {
+    body{
+        background-color: aquamarine;
+    }
+    div::after{
+        content: "don";
+    }
+}

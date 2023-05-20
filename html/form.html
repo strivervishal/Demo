@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form demo</title>
+</head>
+<body>
+    <form>
+        <!-- fieldset tag is used to create square bracket on hole data which is present at screen  -->
+<fieldset>
+     <legend>user details!!</legend>
+    <label for="name">Enter your name:</label>
+    <!-- by using name attribute server understand which type of data tranfer at server side  -->
+   <input type="text" id="name" name="username">
+   <br>
+    <label for="address">please enter your:</label>
+    <br>
+   <textarea id="address" cols="30" rows="10" name="useraddress"></textarea>
+   <br>
+   <!-- for date of birth and using id a specific type of line shows at your screen when you touch that thing which is id section  -->
+   <label for="dob">DOB:</label>
+   <input type="date" id="dob" name="userdob">
+   <br>
+   <label for="password">Enter your password:</label>
+   <input type="password" id="password" name="userpassword">
+   <br>
+   <!-- radio type is used for button  -->
+   Enter your gender:
+   <br>
+   <label for="male">male:</label>
+   <input type="radio" name="usergender" id="male">
+   <br>
+   <label for="female">female</label>
+   <input type="radio" name="usergender" id="male">
+   <br>
+   <label for="transgender">Transgender:</label>
+   <input type="radio" name="usergender" id="transgender">
+   <br>
+    select movie :
+    <br>
+    <label for="avengers">Avengers:</label>
+    <input type="checkbox" id="avengers" name="movie">
+    <br>
+    <label for="ironman">Ironman:</label>
+    <input type="checkbox" id="ironman" name="movie">
+    <br>
+    <label for="missionimpossible">mission impossible:</label>
+    <input type="checkbox" id="missionimpossible" name="movie">
+    <br>
+    <input type="submit">
+</fieldset>
+    </form>
+</body>
+</html>

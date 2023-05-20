@@ -1,0 +1,12 @@
+.heading{
+    color: #808080;
+    font-size: 43px;
+    border:4px solid black;
+    text-align: center;
+    text-decoration: line-through;
+}
+ .pra{
+    color: blue;
+    font-size: 23px;
+    border: 5px solid green;
+ }

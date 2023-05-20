@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- transition means change the property give part  -->
+    <title>transition</title>
+    <style>
+        div{
+            width:100px;
+            height:100px ;
+            background-color: black;
+            /* how to work transition  */
+            transition: width 2s,height 3s;
+        }
+        div:hover{
+            height:500px;
+            width:300px;
+            /* last se slow ho jayega  */
+            transition-timing-function: ease-out;
+            transition-delay: 3s; 
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- transition  -->
+    <div></div>
+</body>
+</html>

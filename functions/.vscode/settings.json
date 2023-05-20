@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.javascript": "javascript",
+        "ostream": "cpp"
+    }
+}

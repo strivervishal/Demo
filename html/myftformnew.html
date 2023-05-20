@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>my first form</title>
+</head>
+<body>
+    <!-- the get method is used to display the content in new web browser tab  -->
+    <!-- in case of (get) data show at browser.data is not secured here  -->
+    <!-- we can also use post method to secure data   -->
+    <!-- action attribute is used show which type form submitted  -->
+ <form method="get" target="_blank" action="/signup">
+    <fieldset >
+        <legend>user registration</legend>
+        <label for="name">Enter user name:</label>
+        <input type="text" id="name" name="username">
+        <br>
+        <br>
+        <label for="gmail">Enter your gmail:</label>
+        <input type="text" id="gmail" name="usermail">
+        <br>
+        <br>
+        <label for="password">Enter user password:</label>
+        <input type="password" id="password" name="userpassword">
+        <br>
+         <br>
+        Enter your gender:
+        <br>
+        <br>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="usergender" value="male">
+        <br>
+        <br>
+        <label for="Female">Female:</label>
+        <input type="radio" id="Female" name="usergender" value="female">
+        <br>
+        <br>
+        <label for="transgender">Transgender:</label>
+        <input type="radio" id="transgender" name="usergender" value="transgender">
+        <br>
+        <br>
+        <input type="submit" value="submit form">
+       
+
+    </fieldset>
+ </form>   
+</body>
+</html>

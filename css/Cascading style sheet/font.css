@@ -1,0 +1,13 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    text-decoration:line-through;
+    border: 5px solid yellow;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: aquamarine;
+    text-align: center;
+    
+}
+ 

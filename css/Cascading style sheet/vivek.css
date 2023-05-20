@@ -1,0 +1,23 @@
+/*universal selector
+*{
+    margin: 0;
+    padding: 0;
+} */
+ /* element sector */
+ h1{
+    color:green;
+ }
+  /*class selector*/
+  .pra{
+    color:blue;
+    text-decoration: line-through;
+  }
+  /* using id selector we use # */
+  #id1{
+    color: aquamarine;
+    text-align: center;
+  }
+  /* selector list selector */
+  .class1,.class2{
+    color: blue;
+  }

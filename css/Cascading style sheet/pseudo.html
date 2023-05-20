@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes | selector </title>
+    <style>
+        /* mouse going text it change its css style  */
+     a:hover{
+        color: aquamarine;
+     }
+     input:focus{
+        /* mouse click that place than it works  */
+          background-color: black;
+     }
+     a:active{
+        color: violet;
+     }
+    /* visited  */
+    a:visited{
+        color:blue;
+    }
+    /* first child  */
+    /* a:first-child{
+        color: brown;
+    } */
+    /* :nth-child  */
+    a:nth-child(2n+1){
+          color: chartreuse;
+    }
+     
+
+    </style>
+</head>
+<body>
+    <!-- hover usely use of botton and anchor tag  -->
+    <a href="google.com">google</a>
+    <!-- focus usely use for input  -->
+    <input type="text">
+    <!-- active is usely use for anchor tag  -->
+    <hr>
+    <a href="pwskills.com">pwskills</a>
+    <a href="facebook.com">facebook</a>
+    <hr>
+    <!-- first child  -->
+    <nav>
+   <!-- <a href="google.com" target="_blank">google</a>
+    </nav> -->
+    <nav>
+   <a href="google.com" target="_blank">google</a>
+   <a href="google.com" target="_blank">google</a>
+   <a href="google.com" target="_blank">google</a>
+   <a href="google.com" target="_blank">google</a>
+   <a href="google.com" target="_blank">google</a>
+    </nav>
+ 
+    
+</body>
+</html>
